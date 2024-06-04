@@ -1,0 +1,6 @@
+name="fastapi"
+compatibility_date="2024-06-01"
+
+[vars]
+UPSTASH_REDIS_REST_URL=https://amusing-lemming-53777.upstash.io
+UPSTASH_REDIS_REST_TOKEN=AdIRAAIncDFlOTJiZTFmMWI3NGI0Zjc3OWZhNzkwMGY5ZjUxOTViOXAxNTM3Nzc
