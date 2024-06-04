@@ -69,7 +69,7 @@ DistrictList.forEach((districtName) => {
                     - Custom Ordering
                     -  Updating Scores: */
             score: 0, 
-            // Generate the substring combination of the district name, with every index as the length, starting from the 0th index and ending at the ith index. C - CO - COI - COIM - COIMB - COIMBA - COIMBAT - COIMBATO - COIMBATORE
+            // Generate the substring combination of the district name, with every index as the length, starting from the 0th index and ending at the ith index. A - AR - ARI - ARIY - ARIYA - ARIYAL - ARIYALU - ARIYALUR
             member: term.substring(0, i) 
         });
     }
