@@ -23,7 +23,7 @@ export default function Home() {
     <div className="">
       <input 
         type="text" 
-        className="w-1/2 h-10 px-3 py-2 text-base text-gray-700 placeholder-gray-600 border rounded-lg focus:shadow-outline"
+        className="w-1/2 h-10 px-3 py-2 text-base text-zinc-700 placeholder-gray-600 border rounded-lg focus:shadow-outline"
         value={input}
         onChange={(e) => setInput(e.target.value)}
       />
