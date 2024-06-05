@@ -2,6 +2,8 @@
 
 ### A Quick search application developed using NextJS, and Hono, utilizing Redis DB to hold values, deployed on Cloudflare
 
-First, run the development server:
-
+UI: *NextJS, ShadCN & TailwindCSS*
+API: *Hono*
+DB: *Redis*
+Platform: *Cloudflare*
 
