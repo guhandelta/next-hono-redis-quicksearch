@@ -82,7 +82,7 @@ DistrictList.forEach((districtName) => {
         // districts => single namespace for all the districts in the Redis DB,
         // This error can be ignored, as this error might be due to some TypeScript incompatibility with the Redis DB or SDK
         // @ts-expect-error 
-        await redis.zadd("districts", ...districts);
+        await redis.zadd("districts2", ...districts);
     }
 
     // Populate the DB with all combinations of all the district names in the Redis DB, and build the foundation for the fast performance of the search
